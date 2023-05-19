@@ -14,7 +14,7 @@ const Item = require("../models/item");
     { name: "Sides", sortOrder: 50 },
     { name: "Desserts", sortOrder: 60 },
     { name: "Drinks", sortOrder: 70 },
-    { name: "Cookies", sortOrder: 80 },
+    // { name: "Cookies", sortOrder: 80 },
   ]);
 
   await Item.deleteMany({});
@@ -62,7 +62,7 @@ const Item = require("../models/item");
     { name: "Mai Tai", emoji: "🍹", category: categories[6], price: 8.95 },
     { name: "Beer", emoji: "🍺", category: categories[6], price: 3.95 },
     { name: "Wine", emoji: "🍷", category: categories[6], price: 7.95 },
-    { name: "Chocolate Cookie", category: categories[7], price: 0.95 },
+    // { name: "Chocolate Cookie", category: categories[7], price: 0.95 },
   ]);
 
   console.log(items);
